@@ -1,0 +1,112 @@
+/** #CSS
+----------------------
+    #HTML5
+    #BODY
+        #TYPOGRAPHRY
+    #HELPERS
+    #IMAGES
+    #BUTTONS
+    #SITE STRUCTURE
+        #HEADER
+            #SITE-BRANDING (LOGO)
+            #SITE NAVIGATION
+                #FOOTER
+                #SECTIONS
+                    #HERO
+            #LAYOUT
+                #GRIDS
+            #EFFECTS (FADE-INS)
+---------------------*/
+
+/* TYPOGRAPHRY */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.59%;
+    color: #262626;
+    margin: 0;
+    padding: 1rem;
+    max-width: 1920px;
+    text-decoration: none;
+    background-color: rgba(216, 216, 216, 0.00)
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    max-width: 35em;
+    text-align: left;
+}
+/* LINKS */
+a {
+    color: rgba(166, 30, 47, 1);
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: rgb(23, 165, 195);
+    transition: ease-in-out .3s;
+}
+
+/* HELPERS */
+.text-centered {
+    text-align: center;
+}
+
+/* IMAGES */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* SITE STRUCTURE */
+.site-header {
+    text-align: center;
+    padding: 3em 0 2em 0;
+    text-transform: uppercase;
+    letter-spacing: .015em;
+}
+
+.site-identity h1{
+    font-size: 2em;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.site-navagation {
+    text-align: center;
+}
+
+
+.site-navagation ul {
+    margin: 0;
+    padding: 2em 0;
+
+}
+
+.site-navagation li {
+    margin: 0 .5em;
+    padding: 0;
+    display: inline-block;
+
+}
+
+.site-navagation a {
+    display: block;
+    padding: 1em .5em;
+    color: rgba(178, 178, 178, 1)
+}
+
+.site-navagation a:hover, .site-navagation a.selected {
+    color: rgba (0,0,0,.7);
+    border-bottom: .09em solid rgba(0, 0, 0, .2)
+
+}
+
+section {
+    padding: 0 0 3em 0;
+}
